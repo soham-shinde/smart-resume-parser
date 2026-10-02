@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+frontend/build/
+frontend/dist/
+backend/build/
+
+# System files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Tailwind-generated files
+frontend/postcss.config.js
+frontend/tailwind.config.js
+
+# Python files
+Resume_Parser/bin
+Resume_Parser/lib
+
+# Application log
+app.log
+Resume_Parser/app.log
+backend/upload/
+input/
+Resume_Parser/venv/
+__pycache__/
+*.pyc
